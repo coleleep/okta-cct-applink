@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.oktarepro.cctstall",
+    "sha256_cert_fingerprints": ["1F:B3:D3:E9:20:30:22:82:A2:64:A1:82:5C:B1:8F:EA:9D:03:20:18:D8:10:F6:E2:BC:BB:91:18:B8:F5:C7:98"]
+  }
+}]
