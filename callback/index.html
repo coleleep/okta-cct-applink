@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Returning to app...</title>
+<script>
+  // Force a fresh top-level navigation to the same URL (including query
+  // string), to test whether that re-triggers Chrome's App Link handoff
+  // for a Custom Tabs redirect that landed here as a page load instead
+  // of an intent.
+  location.replace(location.href);
+</script>
+</head>
+<body>
+  <p>Returning to app&hellip;</p>
+</body>
+</html>
